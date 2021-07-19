@@ -1,0 +1,2 @@
+rootProject.name = "gridLayout"
+include ':app'
