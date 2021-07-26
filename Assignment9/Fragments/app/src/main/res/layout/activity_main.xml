@@ -6,19 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <include
         android:id="@+id/include"
         layout="@layout/right_fragment"
-        android:layout_width="66dp"
-        android:layout_height="459dp"
+        android:layout_width="230dp"
+        android:layout_height="630dp"
         android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <include
+        android:id="@+id/include2"
         layout="@layout/left_fragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="146dp"
+        android:layout_height="445dp"
         android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
