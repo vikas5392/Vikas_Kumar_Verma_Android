@@ -7,36 +7,14 @@
         android:title="Item"
         app:showAsAction="ifRoom" />
     <item
+        android:id="@+id/fruits"
         android:title="Fruits"
-        app:showAsAction="never" >
-        <menu >
-            <item
-                android:id="@+id/mango"
-                android:title="mango" />
-            <item
-                android:id="@+id/apple"
-                android:title="apple" />
-            <item
-                android:id="@+id/banana"
-                android:title="banana" />
-        </menu>
-    </item>
+        app:showAsAction="never" />
     <item
+        android:id="@+id/movies"
         android:title="Movies"
         android:visible="true"
-        app:showAsAction="never" >
-        <menu >
-            <item
-                android:id="@+id/inception"
-                android:title="inception" />
-            <item
-                android:id="@+id/justiceLeague"
-                android:title="justice league" />
-            <item
-                android:id="@+id/endGame"
-                android:title="end game" />
-        </menu>
-    </item>
+        app:showAsAction="never" />
     <item
         android:id="@+id/close"
         android:title="Close"
